@@ -1,0 +1,29 @@
+Differences between browser Js and Node Js
+1.	Javascript(Browser Js) is used for writing scripts on websites.Node Js is a javascript runtime environment.
+2.	Javascript can only be run on the browser. Node Js can run outside the browser also.
+3.	Javascript is used on the client side. Node Js is used on the server side.
+4.	Javascript have the capability to add HTML tags and play with DOM. Node Js doesn’t have the capability to add HTML tags.
+5.	Java script can run in browser engines like JS core in safari and spidermonkey in firefox. NodeJs is run only in the V8 engine of Google chrome.
+6.	Javascript is used in frontend  development. NodeJs is used in server side development.
+
+
+Youtube video summary
+1.	Html5 allows parsing so it will work even if we didn’t close the tags.
+2.	Script ,link,style tags halt the parser as it can change the document.
+3.	Using script tag at bottom doesn’t stop the parsing and improve the performance. It can also achieved by script tag with defer or Async attribute, in which defer does the same as script in last, incase of Async it process the codes in a separate thread while parsing occurs parallely.
+4.	Both the parsed html and css goes to the Renderer tree. It consist of render objects ,render styles,render layers and line boxes.These will take information about Dom node, styles ,position, fontstyle etc.
+5.	From the render tree it goes to layout where it computes where a  node will be on the screen.
+6.	After layout Painting occurs, it computes bitmaps and composites to the screen.
+7.	Using the critical CSS style in html tag itself instead of using in external css will speed up the painting process.
+
+
+Execute the bellow code and write your description in txt file
+1.	typeof(1) : outputs number, it represents 1 is of type number.
+2.	typeof(1.1): outputs number, it represents 1.1 is of type number.
+3.	typeof('1.1'): outputs string, it represents ‘1.1’ is of type string.
+4.	typeof(true): outputs Boolean, it represents true is of type boolean.
+5.	typeof(null): outputs object, it represents null is of type object.
+6.	typeof(undefined):outputs undefined, it represents undefined is of type undefined.
+7.	typeof([]):outputs object, it represents [] is of type object.
+8.	typeof({}):outputs object, it represents {} is of type object.
+9.	typeof(NaN): outputs number, it represents NaN is of type number.
