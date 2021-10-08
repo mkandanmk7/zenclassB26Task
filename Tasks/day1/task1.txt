@@ -1,0 +1,16 @@
+static programming
+ A programming is statically typed if its variales are known at its compile time.
+Dynamic programming
+  A programming is dynamically type if the type of variable is not defined and types are checked in runtime.
+ ------------------------------------------------------------------------------------------------
+ scripting languages
+   scripting languages are programming languages in which its codes are not compiled to machine codes instead it is compiled by interpreter.
+ Programming languages
+   prongramming languages are languages in which it is complied to machie code by compiler.
+   --------------------------------------------------------------------------------------------------
+  http1.1 vs http2
+http1.1
+   In http1.1 the data the resources are load one after the other, it doesnt allow developers to prioritize which loads first in web page, so it is less efficient than http2.
+http2
+  In http2, it uses multiplexing that is within a single TCP connection it can send multiple streams of data at once and also allows developers to prioritize content which loaded first
+  ,hence it loads faster than http1.1 and more efficient.
